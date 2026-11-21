@@ -1,0 +1,33 @@
+├── Problem1-Find-the-Promos/                    ← PRIMARY ASSIGNMENT SUBMISSION
+│   ├── main.py
+│   ├── app.py / run_app.py / run_app.bat
+│   ├── dashboard.html
+│   ├── config.py
+│   ├── models/
+│   ├── step1-parser/
+│   ├── step2-promo-finder/
+│   ├── step3-ranker/
+│   ├── step4-quality-check/
+│   ├── Solution_Doc_Kuku_AI_Generalist.pdf
+│   ├── WALKTHROUGH_SCRIPT.md
+│   ├── HOW-I-BUILT-THIS.md
+│   └── raw-outputs/
+│
+├── Problem2-AI-Lawyer/                         ← PROBLEM 2: NYAYAAI LEGAL CO-PILOT
+│   ├── main.py                                 ← 5-case test suite runner
+│   ├── ai_lawyer.py                            ← Grounded statutory engine
+│   ├── app.py / run_app.py / run_app.bat       ← Interactive UI (Port 8502)
+│   ├── knowledge_base/legal_rules.json
+│   ├── test_cases/test_cases.json
+│   ├── HOW-I-BUILT-THIS.md
+│   └── raw-outputs/
+│
+├── Problem3-Microdrama-Localization-Auditor/   ← PROBLEM 3: PACING & LOCALIZATION AUDITOR
+│   ├── main.py                                 ← 50-episode catalog audit runner
+│   ├── app.py / run_app.py / run_app.bat       ← Interactive UI (Port 8503)
+│   ├── auditor/pacing_auditor.py               ← WPM & Dead Air detection engine
+│   ├── HOW-I-BUILT-THIS.md
+│   └── raw-outputs/
+│
+├── requirements.txt
+└── README.md
