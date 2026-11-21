@@ -8,6 +8,8 @@ import threading
 import webbrowser
 
 script_dir = os.path.dirname(os.path.abspath(__file__))
+os.environ["USERPROFILE"] = script_dir
+os.environ["HOME"] = script_dir
 os.environ["STREAMLIT_BROWSER_GATHER_USAGE_STATS"] = "false"
 
 from streamlit.runtime.credentials import Credentials, _Activation
