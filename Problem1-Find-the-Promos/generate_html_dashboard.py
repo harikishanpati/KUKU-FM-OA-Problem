@@ -8,8 +8,8 @@ Can be opened by simply double-clicking in ANY web browser without running any s
 import os
 import json
 
-SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-RAW_DIR = os.path.join(SCRIPT_DIR, "raw-outputs")
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+RAW_DIR = os.path.join(PROJECT_DIR, "raw-outputs")
 
 with open(os.path.join(RAW_DIR, "ranked_promos.json"), "r", encoding="utf-8") as f:
     ranked = json.load(f)
@@ -159,7 +159,7 @@ html_content += """
 </html>
 """
 
-out_html = os.path.join(SCRIPT_DIR, "dashboard.html")
+out_html = os.path.join(PROJECT_DIR, "dashboard.html")
 with open(out_html, "w", encoding="utf-8") as f:
     f.write(html_content)
 

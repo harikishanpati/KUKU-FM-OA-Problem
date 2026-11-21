@@ -1,3 +1,11 @@
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# VS Code settings
+.vscode/
+
 # Windows system cache & temp
 AppData/
 **/AppData/

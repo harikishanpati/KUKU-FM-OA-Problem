@@ -14,42 +14,53 @@ This repository contains full, working production prototypes and evaluations for
 
 ---
 
-## 📂 Project Structure
+## 📂 Visual Folder Architecture
 
 ```text
-├── Problem1-Find-the-Promos/                    ← PRIMARY SUBMISSION
-│   ├── main.py                                 ← Master CLI pipeline (runs in 1.1s)
-│   ├── run_app.py                              ← Interactive Streamlit studio launcher
-│   ├── dashboard.html                          ← Standalone zero-server browser dashboard
-│   ├── config.py                               ← Hyperparameters & scoring weights
-│   ├── models/                                 ← Swappable Model Layer (Heuristic, Gemini, OpenAI)
-│   │   ├── base_model.py
-│   │   ├── heuristic_model.py
-│   │   ├── gemini_model.py
-│   │   └── openai_model.py
-│   ├── step1-parser/                           ← Regex screenplay parser
-│   ├── step2-promo-finder/                     ← 20–60s sliding window & scoring
-│   ├── step3-ranker/                           ← Weighted ranker & diversification
-│   ├── step4-quality-check/                    ← Automated QA audit & failure report
-│   ├── Solution_Doc_Kuku_AI_Generalist.pdf     ← Official 2-Page Solution Document
-│   ├── WALKTHROUGH_SCRIPT.md                   ← 3-Minute screen recording script
-│   └── raw-outputs/                            ← Full unedited 50-episode run outputs
+Problem1-Find-the-Promos/
 │
-├── Problem2-AI-Lawyer/                         ← PROBLEM 2: EVERYDAY INDIAN LEGAL HELPER
-│   ├── ai_lawyer.py                            ← Case builder, options explainer, notice drafter
-│   ├── main.py                                 ← Test suite across 5 realistic Indian disputes
-│   ├── run_app.py                              ← Streamlit legal co-pilot UI
-│   ├── knowledge_base/                         ← Grounded statutes (Zero hallucinations)
-│   └── raw-outputs/                            ← Test case outputs & legal demand notices
+├── ⚙️ Orchestration & Config
+│   ├── main.py                     ← Master CLI pipeline runner (parses, finds, ranks, audits)
+│   ├── config.py                   ← Global settings, scoring weights & duration thresholds
+│   └── requirements.txt            ← Installed Python package list
 │
-├── Problem3-Microdrama-Localization-Auditor/   ← PROBLEM 3: LOCALIZATION PACING AUDITOR
-│   ├── auditor/                                ← Speech velocity (WPM) & dead air (>3.2s) auditor
-│   ├── main.py                                 ← 50-episode catalog audit runner
-│   ├── run_app.py                              ← QA dashboard for Localization Leads
-│   └── raw-outputs/                            ← 50-episode pacing defect audit logs
+├── 🖥️ User Interface & Dashboard
+│   ├── app.py                      ← Streamlit interactive UI application
+│   ├── run_app.py                  ← Safe Python launcher for Streamlit (no errors)
+│   ├── run_app.bat                 ← 1-click Windows desktop batch launcher
+│   └── dashboard.html              ← Standalone zero-server browser dashboard
 │
-├── requirements.txt                            ← Python package dependencies
-└── README.md                                   ← This documentation
+├── 🧩 The 4 Pipeline Steps
+│   ├── step1-parser/
+│   │   └── screenplay_parser.py    ← Parses raw .txt into structured JSON
+│   ├── step2-promo-finder/
+│   │   └── promo_finder.py         ← Sliding window & candidate scoring
+│   ├── step3-ranker/
+│   │   └── promo_ranker.py         ← Weighted ranking & catalog diversification
+│   └── step4-quality-check/
+│       └── quality_checker.py      ← Quality audit & honest failure detection
+│
+├── 🤖 Swappable Model Layer
+│   └── models/
+│       ├── __init__.py             ← Model factory (get_model)
+│       ├── base_model.py           ← Abstract base class interface
+│       ├── heuristic_model.py      ← 100% offline rule-based scoring (Default)
+│       ├── gemini_model.py         ← Google Gemini Flash API integration
+│       └── openai_model.py         ← OpenAI GPT-4o-mini API integration
+│
+├── 📊 Outputs & Deliverables
+│   ├── Solution_Doc_Kuku_AI_Generalist.pdf  ← 2-Page Executive PDF for form
+│   ├── generate_solution_pdf.py             ← Script that compiles the PDF
+│   ├── generate_html_dashboard.py           ← Script that compiles dashboard.html
+│   ├── WALKTHROUGH_SCRIPT.md                ← 3-minute video recording script
+│   ├── HOW-I-BUILT-THIS.md                  ← Comprehensive technical notes
+│   └── raw-outputs/
+│       ├── parsed_episodes.json             ← 3,727 parsed screenplay elements
+│       ├── promo_candidates.json            ← 176 scored candidate windows
+│       ├── ranked_promos.json               ← Top 20 ranked promo cuts (JSON)
+│       ├── ranked_promos_readable.txt       ← Human-readable promo report
+│       ├── quality_report.json              ← Quantitative audit metrics
+│       └── quality_report.txt               ← Transparent failure analysis
 ```
 
 ---

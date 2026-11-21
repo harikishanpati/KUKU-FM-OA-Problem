@@ -14,11 +14,12 @@ import json
 import streamlit as st
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
-sys.path.insert(0, SCRIPT_DIR)
-sys.path.insert(0, os.path.join(SCRIPT_DIR, 'step1-parser'))
-sys.path.insert(0, os.path.join(SCRIPT_DIR, 'step2-promo-finder'))
-sys.path.insert(0, os.path.join(SCRIPT_DIR, 'step3-ranker'))
-sys.path.insert(0, os.path.join(SCRIPT_DIR, 'step4-quality-check'))
+PROJECT_DIR = SCRIPT_DIR
+sys.path.insert(0, PROJECT_DIR)
+sys.path.insert(0, os.path.join(PROJECT_DIR, 'step1-parser'))
+sys.path.insert(0, os.path.join(PROJECT_DIR, 'step2-promo-finder'))
+sys.path.insert(0, os.path.join(PROJECT_DIR, 'step3-ranker'))
+sys.path.insert(0, os.path.join(PROJECT_DIR, 'step4-quality-check'))
 
 import config
 from models import get_model
@@ -93,7 +94,7 @@ with st.sidebar:
 # ----------------- DATA LOADING -----------------
 @st.cache_data
 def load_data():
-    raw_out = os.path.join(SCRIPT_DIR, "raw-outputs")
+    raw_out = os.path.join(PROJECT_DIR, "raw-outputs")
     ranked_path = os.path.join(raw_out, "ranked_promos.json")
     parsed_path = os.path.join(raw_out, "parsed_episodes.json")
     quality_path = os.path.join(raw_out, "quality_report.json")
