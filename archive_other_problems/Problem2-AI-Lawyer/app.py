@@ -75,12 +75,20 @@ with col1:
     analyze_btn = st.button("🚀 Analyze My Case & Generate Action Plan", type="primary")
 
 if analyze_btn and user_story.strip():
+    case_summary = engine.build_the_case(user_story, initial_details)
+    legal_advice = engine.explain_options_plain_language(case_summary)
+    legal_notice = engine.generate_legal_demand_notice(case_summary, initial_details) if not legal_advice.get("requires_lawyer") else ""
+    st.session_state["case_summary"] = case_summary
+    st.session_state["legal_advice"] = legal_advice
+    st.session_state["legal_notice"] = legal_notice
+
+if "case_summary" in st.session_state:
+    case_summary = st.session_state["case_summary"]
+    legal_advice = st.session_state["legal_advice"]
+    legal_notice = st.session_state["legal_notice"]
+    
     with col2:
         st.subheader("2. Legal Standing & Case Analysis")
-        
-        # 1. Build the case
-        case_summary = engine.build_the_case(user_story, initial_details)
-        legal_advice = engine.explain_options_plain_language(case_summary)
         
         # Check escalation
         if legal_advice.get("requires_lawyer"):
@@ -116,28 +124,29 @@ if analyze_btn and user_story.strip():
                 st.markdown(f"👉 **{opt}**")
                 
             # Notice tab
-            legal_notice = engine.generate_legal_demand_notice(case_summary, initial_details)
-            st.markdown("### 📄 Draft Legal Demand Notice (15-Day Cure Period)")
-            st.code(legal_notice, language="text")
-            st.download_button(
-                "📥 Download Legal Notice (.txt)",
-                data=legal_notice,
-                file_name=f"Legal_Demand_Notice_{case_summary['domain']}.txt",
-                mime="text/plain"
-            )
+            if legal_notice:
+                st.markdown("### 📄 Draft Legal Demand Notice (15-Day Cure Period)")
+                st.code(legal_notice, language="text")
+                st.download_button(
+                    "📥 Download Legal Notice (.txt)",
+                    data=legal_notice,
+                    file_name=f"Legal_Demand_Notice_{case_summary['domain']}.txt",
+                    mime="text/plain"
+                )
 
-    # Opposing argument practice
-    st.markdown("---")
-    st.subheader("3. Practice Arguing (Negotiation Simulator)")
-    st.caption("The AI plays the difficult landlord, merchant, or employer so you can practice your points before sending notice.")
-    
-    sim_col1, sim_col2 = st.columns([1, 1])
-    with sim_col1:
-        user_pitch = st.text_input("Say something to the other party:", value="I am giving you 15 days to refund my full deposit before I approach the Rent Authority.")
-        sim_btn = st.button("Simulate Opposing Response")
-    
-    with sim_col2:
-        if sim_btn and user_pitch:
-            counter = engine.roleplay_counter_argument(case_summary["domain"], user_pitch)
-            st.warning(counter)
-            st.info("💡 **Coach Tip:** Stay calm and stick to documentary facts (inspection report, payment receipt) rather than emotional arguments.")
+# Opposing argument practice
+st.markdown("---")
+st.subheader("3. Practice Arguing (Negotiation Simulator)")
+st.caption("The AI plays the difficult landlord, merchant, or employer so you can practice your points before sending notice.")
+
+sim_col1, sim_col2 = st.columns([1, 1])
+with sim_col1:
+    user_pitch = st.text_input("Say something to the other party:", value="I am giving you 15 days to refund my full deposit before I approach the Rent Authority.")
+    sim_btn = st.button("Simulate Opposing Response")
+
+with sim_col2:
+    if sim_btn and user_pitch:
+        domain = st.session_state.get("case_summary", {}).get("domain", "tenancy_security_deposit")
+        counter = engine.roleplay_counter_argument(domain, user_pitch)
+        st.warning(counter)
+        st.info("💡 **Coach Tip:** Stay calm and stick to documentary facts (inspection report, payment receipt) rather than emotional arguments.")
