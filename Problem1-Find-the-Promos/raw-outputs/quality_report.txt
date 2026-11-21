@@ -1,0 +1,58 @@
+================================================================================
+QUALITY CHECK REPORT
+Promo Finder Tool — Honest Self-Assessment
+================================================================================
+
+OVERALL ASSESSMENT: GOOD
+
+────────────────────────────────────────────────────────────
+1. EPISODE COVERAGE: GOOD
+────────────────────────────────────────────────────────────
+   Episodes covered:  15 / 50 (30.0%)
+   Missing episodes:  [1, 2, 4, 5, 6, 7, 8, 9, 12, 14] ...
+
+────────────────────────────────────────────────────────────
+2. DURATION DISTRIBUTION: GOOD
+────────────────────────────────────────────────────────────
+   Average duration:  46.5s
+   Range:             30s – 60s
+   In ideal range:    17 promos
+   Too short (<25s):  0 promos
+   Too long (>50s):   3 promos
+
+────────────────────────────────────────────────────────────
+3. HOOK QUALITY: GOOD
+────────────────────────────────────────────────────────────
+   Average hook score:  12.95 / 15
+   Strong hooks (≥6):   20
+   Weak hooks (<3):     0
+
+────────────────────────────────────────────────────────────
+4. CLIFFHANGER QUALITY: POOR
+────────────────────────────────────────────────────────────
+   Average cliff score:   2.9 / 10
+   Strong cliffs (≥5):    5
+   Weak cliffs (<2):      6
+
+────────────────────────────────────────────────────────────
+5. FAILURE MODES & LIMITATIONS
+────────────────────────────────────────────────────────────
+
+   [LIMITATION] (3 issues)
+   • The tool works on TEXT only — it cannot evaluate visual impact, actor performance quality, or cinematographic appeal that a human editor sees.
+   • Keyword-based scoring may miss subtle drama (quiet menace, loaded silences, implied threats) that doesn't use explicitly dramatic vocabulary.
+   • The tool cannot judge audio — music swells, sound effects, and voice tone are major factors in promo effectiveness that text analysis misses.
+
+────────────────────────────────────────────────────────────
+6. HOW TO IMPROVE
+────────────────────────────────────────────────────────────
+   1. Add an LLM layer: Feed top candidates to GPT-4/Gemini for
+      semantic understanding of what makes a moment truly compelling.
+   2. Add visual analysis: Use video frames to score visual impact,
+      facial expressions, and cinematographic quality.
+   3. Cross-episode promos: Stitch dramatic moments from multiple
+      episodes into a single montage-style promo.
+   4. A/B test scoring weights: Run different weight configs and
+      compare with human editor picks to calibrate the model.
+   5. Viewer data feedback loop: Use engagement metrics from posted
+      promos to retrain the scoring weights.

@@ -1,0 +1,266 @@
+===========================================================================
+CASE CASE-01: BENGALURU LANDLORD SECURITY DEPOSIT WITHHELD
+===========================================================================
+USER STORY:
+I vacated my 2BHK flat in HSR Layout, Bengaluru on October 31st after giving 1 month notice as per agreement. I paid ₹65,000 deposit via Google Pay in 2023. The landlord inspected the house and confirmed everything was fine on WhatsApp. Now it's been over 25 days and he is refusing to return my deposit, saying he needs ₹40,000 for full house repainting and deep cleaning, but the house only had normal wear and tear. He is not answering my calls now.
+
+1. STRUCTURED CASE SUMMARY:
+   Domain:          Tenant Security Deposit Disputes
+   Amount Claimed:  ₹65,000
+   Existing Proof:  WhatsApp chat logs / agreement confirmations
+   Missing Proof:   Signed Rental Agreement / Lease Deed, Proof of security deposit payment (bank transaction receipt/UPI/cheque), Move-in and move-out inspection photos/videos or handover email confirmation, Written communication (WhatsApp/Email) showing notice given and demand for refund
+
+2. LEGAL STANDING & ACTIONABLE OPTIONS:
+   Standing:        Strong Prima Facie Case under Transfer of Property Act, 1882 (Section 108) & State Rent Control Acts / Model Tenancy Act
+   Explanation:     Under Indian law, the other party cannot arbitrarily withhold your money without documented justification. You have a strong legal right to seek full refund of ₹65,000.
+   • Step 1: Send a Formal Written Demand Notice giving 15 clear days to settle.
+   • Step 2: File a free pre-litigation grievance on government portals (e.g., National Consumer Helpline 1915 or State Labour Portal).
+   • Step 3: If unresponsive, escalate to the appropriate statutory forum (District Consumer Commission via e-Daakhil or Rent Authority).
+
+3. ROLEPLAY OPPOSING COUNTER-ARGUMENT:
+   Opposing Landlord: 'Look at clause 8 of the agreement, painting charges are always deducted from deposit. Everybody in Bangalore does this. Take ₹25,000 or wait 2 months.'
+
+4. PREPARED LEGAL NOTICE:
+================================================================================
+FORMAL LEGAL DEMAND NOTICE (WITHOUT PREJUDICE)
+Date: 21-November-2026
+Sent via: Registered Post A.D. & Electronic Mail
+
+TO:
+K. R. Narayana
+
+FROM:
+Aditya Verma
+
+SUBJECT: DEMAND FOR REFUND OF ₹65,000 PURSUANT TO TRANSFER OF PROPERTY ACT, 1882 (SECTION 108) & STATE RENT CONTROL ACTS / MODEL TENANCY ACT
+
+Sir/Madam,
+
+Under instructions and in terms of statutory provisions of Transfer of Property Act, 1882 (Section 108) & State Rent Control Acts / Model Tenancy Act, you are hereby formally put on notice as follows:
+
+1. STATEMENT OF FACTS:
+That the undersigned entered into a legitimate transaction with you regarding:
+"I vacated my 2BHK flat in HSR Layout, Bengaluru on October 31st after giving 1 month notice as per agreement. I paid ₹65,000 deposit via Google Pay in 2023. The landlord inspected the house and confirmed everything was fine on WhatsApp. Now it's been..."
+
+2. UNLAWFUL WITHHOLDING & DEFICIENCY:
+That despite repeated formal requests, you have unlawfully failed, refused, and neglected to release the legitimate sum of ₹65,000 legitimately due and payable to the undersigned. Such arbitrary retention constitutes breach of contractual obligations and unfair practice.
+
+3. SUPPORTING EVIDENCE IN POSSESSION:
+The undersigned possesses irrefutable documentary proof including:
+ - WhatsApp chat logs / agreement confirmations
+
+4. FINAL DEMAND FOR COMPLIANCE:
+You are hereby called upon to refund the full sum of ₹65,000 to the undersigned's designated account within 15 (FIFTEEN) DAYS from the receipt of this notice, failing which the undersigned shall be constrained to initiate appropriate legal proceedings before the competent statutory forum, including the Consumer Disputes Redressal Commission / Rent Authority / Labour Commissioner, holding you liable for all legal costs, interest at 18% p.a., and damages for mental harassment.
+
+Yours faithfully,
+
+Aditya Verma
+(Aggrieved Complainant)
+================================================================================
+
+===========================================================================
+CASE CASE-02: E-COMMERCE REFUSAL TO REFUND DAMAGED APPLIANCE
+===========================================================================
+USER STORY:
+I ordered a semi-automatic washing machine for ₹18,499 from QuickMart on 5th Nov. When delivery arrived on 8th Nov, the motor drum was badly dented and making loud grinding noises. I immediately created a return request with photos within 2 hours. Customer service closed the ticket saying 'Damage not reported at delivery time'. I escalated via email three times with unboxing video, but they keep sending automated rejection emails.
+
+1. STRUCTURED CASE SUMMARY:
+   Domain:          Consumer Goods & E-Commerce Refund / Defect
+   Amount Claimed:  ₹18,499
+   Existing Proof:  Photographic / Video evidence of condition, Email correspondence
+   Missing Proof:   Order invoice and delivery receipt, Photographs / unboxing video of damaged or wrong product, Chat transcripts or customer service ticket history, Bank / payment gateway debit statement
+
+2. LEGAL STANDING & ACTIONABLE OPTIONS:
+   Standing:        Strong Prima Facie Case under Consumer Protection Act, 2019 (Sections 2(7), 2(47), 35, 84-86) & E-Commerce Rules 2020
+   Explanation:     Under Indian law, the other party cannot arbitrarily withhold your money without documented justification. You have a strong legal right to seek full refund of ₹18,499.
+   • Step 1: Send a Formal Written Demand Notice giving 15 clear days to settle.
+   • Step 2: File a free pre-litigation grievance on government portals (e.g., National Consumer Helpline 1915 or State Labour Portal).
+   • Step 3: If unresponsive, escalate to the appropriate statutory forum (District Consumer Commission via e-Daakhil or Rent Authority).
+
+3. ROLEPLAY OPPOSING COUNTER-ARGUMENT:
+   Opposing Customer Support: 'We deeply regret the inconvenience, but our delivery policy strictly requires unboxing verification in front of the courier agent. Since the package was marked accepted, system will not permit refund.'
+
+4. PREPARED LEGAL NOTICE:
+================================================================================
+FORMAL LEGAL DEMAND NOTICE (WITHOUT PREJUDICE)
+Date: 21-November-2026
+Sent via: Registered Post A.D. & Electronic Mail
+
+TO:
+QuickMart India Retail Pvt Ltd
+
+FROM:
+Pooja Sharma
+
+SUBJECT: DEMAND FOR REFUND OF ₹18,499 PURSUANT TO CONSUMER PROTECTION ACT, 2019 (SECTIONS 2(7), 2(47), 35, 84-86) & E-COMMERCE RULES 2020
+
+Sir/Madam,
+
+Under instructions and in terms of statutory provisions of Consumer Protection Act, 2019 (Sections 2(7), 2(47), 35, 84-86) & E-Commerce Rules 2020, you are hereby formally put on notice as follows:
+
+1. STATEMENT OF FACTS:
+That the undersigned entered into a legitimate transaction with you regarding:
+"I ordered a semi-automatic washing machine for ₹18,499 from QuickMart on 5th Nov. When delivery arrived on 8th Nov, the motor drum was badly dented and making loud grinding noises. I immediately created a return request with photos within 2 hours. Cu..."
+
+2. UNLAWFUL WITHHOLDING & DEFICIENCY:
+That despite repeated formal requests, you have unlawfully failed, refused, and neglected to release the legitimate sum of ₹18,499 legitimately due and payable to the undersigned. Such arbitrary retention constitutes breach of contractual obligations and unfair practice.
+
+3. SUPPORTING EVIDENCE IN POSSESSION:
+The undersigned possesses irrefutable documentary proof including:
+ - Photographic / Video evidence of condition
+ - Email correspondence
+
+4. FINAL DEMAND FOR COMPLIANCE:
+You are hereby called upon to refund the full sum of ₹18,499 to the undersigned's designated account within 15 (FIFTEEN) DAYS from the receipt of this notice, failing which the undersigned shall be constrained to initiate appropriate legal proceedings before the competent statutory forum, including the Consumer Disputes Redressal Commission / Rent Authority / Labour Commissioner, holding you liable for all legal costs, interest at 18% p.a., and damages for mental harassment.
+
+Yours faithfully,
+
+Pooja Sharma
+(Aggrieved Complainant)
+================================================================================
+
+===========================================================================
+CASE CASE-03: UNPAID SALARY AND RELIEVING LETTER WITHHELD BY EMPLOYER
+===========================================================================
+USER STORY:
+I worked as a frontend engineer at Apex Tech Solutions Pvt Ltd in Gurugram for 1.5 years. I submitted my resignation on September 1st and served my full 30-day notice period till September 30th with handover done. My company has not paid my September salary (₹60,000) and August arrears (₹45,000), total ₹1,05,000. HR is not releasing my relieving letter or experience certificate, claiming the client project had bugs. My new employer is threatening to revoke my offer if I don't submit relieving letter.
+
+1. STRUCTURED CASE SUMMARY:
+   Domain:          Unpaid Salary / End-of-Service Settlement
+   Amount Claimed:  ₹1,05,000
+   Existing Proof:  None documented
+   Missing Proof:   Employment Offer Letter / Employment Agreement, Salary slips / Bank statement showing prior monthly credits, Resignation letter and written acceptance / Relieving email, Approved timesheets or attendance records
+
+2. LEGAL STANDING & ACTIONABLE OPTIONS:
+   Standing:        Strong Prima Facie Case under Payment of Wages Act, 1936 & State Shops and Commercial Establishments Act
+   Explanation:     Under Indian law, the other party cannot arbitrarily withhold your money without documented justification. You have a strong legal right to seek full refund of ₹1,05,000.
+   • Step 1: Send a Formal Written Demand Notice giving 15 clear days to settle.
+   • Step 2: File a free pre-litigation grievance on government portals (e.g., National Consumer Helpline 1915 or State Labour Portal).
+   • Step 3: If unresponsive, escalate to the appropriate statutory forum (District Consumer Commission via e-Daakhil or Rent Authority).
+
+3. ROLEPLAY OPPOSING COUNTER-ARGUMENT:
+   Opposing HR Director: 'The company suffered project delivery delays due to your incomplete handover. Until the client signs off, management has placed your final settlement and relieving letter on hold under company policy.'
+
+4. PREPARED LEGAL NOTICE:
+================================================================================
+FORMAL LEGAL DEMAND NOTICE (WITHOUT PREJUDICE)
+Date: 21-November-2026
+Sent via: Registered Post A.D. & Electronic Mail
+
+TO:
+Apex Tech Solutions Pvt Ltd
+
+FROM:
+Rohan Mehra
+
+SUBJECT: DEMAND FOR REFUND OF ₹1,05,000 PURSUANT TO PAYMENT OF WAGES ACT, 1936 & STATE SHOPS AND COMMERCIAL ESTABLISHMENTS ACT
+
+Sir/Madam,
+
+Under instructions and in terms of statutory provisions of Payment of Wages Act, 1936 & State Shops and Commercial Establishments Act, you are hereby formally put on notice as follows:
+
+1. STATEMENT OF FACTS:
+That the undersigned entered into a legitimate transaction with you regarding:
+"I worked as a frontend engineer at Apex Tech Solutions Pvt Ltd in Gurugram for 1.5 years. I submitted my resignation on September 1st and served my full 30-day notice period till September 30th with handover done. My company has not paid my September..."
+
+2. UNLAWFUL WITHHOLDING & DEFICIENCY:
+That despite repeated formal requests, you have unlawfully failed, refused, and neglected to release the legitimate sum of ₹1,05,000 legitimately due and payable to the undersigned. Such arbitrary retention constitutes breach of contractual obligations and unfair practice.
+
+3. SUPPORTING EVIDENCE IN POSSESSION:
+The undersigned possesses irrefutable documentary proof including:
+
+
+4. FINAL DEMAND FOR COMPLIANCE:
+You are hereby called upon to refund the full sum of ₹1,05,000 to the undersigned's designated account within 15 (FIFTEEN) DAYS from the receipt of this notice, failing which the undersigned shall be constrained to initiate appropriate legal proceedings before the competent statutory forum, including the Consumer Disputes Redressal Commission / Rent Authority / Labour Commissioner, holding you liable for all legal costs, interest at 18% p.a., and damages for mental harassment.
+
+Yours faithfully,
+
+Rohan Mehra
+(Aggrieved Complainant)
+================================================================================
+
+===========================================================================
+CASE CASE-04: DUBIOUS RECOVERY AGENT POLICE ARREST THREAT (ESCALATION CASE)
+===========================================================================
+USER STORY:
+A man claiming to be Inspector Rathore from Crime Branch called me and sent a PDF on WhatsApp with a fake police seal, claiming an FIR has been lodged against me for non-payment of a ₹15,000 loan app debt and police will come to arrest me and my parents today if I don't transfer ₹25,000 immediately to a personal UPI ID.
+
+1. STRUCTURED CASE SUMMARY:
+   Domain:          Urgent Criminal Escalation
+   Amount Claimed:  ₹25,000
+   Existing Proof:  WhatsApp chat logs / agreement confirmations, Proof of payment (Bank/UPI/Receipt)
+   Missing Proof:   Written communication records, Payment debit slips
+
+2. LEGAL STANDING & ACTIONABLE OPTIONS:
+   Standing:        CRITICAL WARNING: Threat of arrest / Police impersonation detected.
+   Explanation:     No legitimate police officer or court sends arrest warrants on WhatsApp or demands money via personal UPI IDs. This is an illegal intimidation/extortion attempt by rogue recovery agents or fraudsters.
+   • DO NOT transfer any money to the personal UPI ID.
+   • Save all screenshots, call recordings, and the PDF with fake seals.
+   • Immediately file a cyber fraud report on https://cybercrime.gov.in or dial National Cyber Helpline 1930.
+   • Consult a licensed criminal advocate immediately if they show up at your residence.
+
+3. ROLEPLAY OPPOSING COUNTER-ARGUMENT:
+   Opposing Party: 'We have received your message. However, as per company policy, no further refund is entertainable.'
+
+4. PREPARED LEGAL NOTICE: [SKIPPED - ADVOCATE ESCALATION MANDATED]
+
+===========================================================================
+CASE CASE-05: GYM BRANCH ABRUPT CLOSURE REFUND (HINGLISH)
+===========================================================================
+USER STORY:
+Maine 12 months ka gym membership liya tha ₹16,000 pay karke FitZone Gym me. 2 months baad unhone achanak branch band kar di aur bola dusre branch 12 km door jao. Maine refund manga WhatsApp pe toh branch manager ne block kar diya aur bolte hain 'No refund policy'. Mere paas payment receipt aur unka WhatsApp message hai.
+
+1. STRUCTURED CASE SUMMARY:
+   Domain:          Consumer Goods & E-Commerce Refund / Defect
+   Amount Claimed:  ₹13,333 (Pro-rata remaining)
+   Existing Proof:  WhatsApp chat logs / agreement confirmations, Proof of payment (Bank/UPI/Receipt)
+   Missing Proof:   Order invoice and delivery receipt, Photographs / unboxing video of damaged or wrong product, Chat transcripts or customer service ticket history, Bank / payment gateway debit statement
+
+2. LEGAL STANDING & ACTIONABLE OPTIONS:
+   Standing:        Strong Prima Facie Case under Consumer Protection Act, 2019 (Sections 2(7), 2(47), 35, 84-86) & E-Commerce Rules 2020
+   Explanation:     Under Indian law, the other party cannot arbitrarily withhold your money without documented justification. You have a strong legal right to seek full refund of ₹13,333 (Pro-rata remaining).
+   • Step 1: Send a Formal Written Demand Notice giving 15 clear days to settle.
+   • Step 2: File a free pre-litigation grievance on government portals (e.g., National Consumer Helpline 1915 or State Labour Portal).
+   • Step 3: If unresponsive, escalate to the appropriate statutory forum (District Consumer Commission via e-Daakhil or Rent Authority).
+
+3. ROLEPLAY OPPOSING COUNTER-ARGUMENT:
+   Opposing Customer Support: 'We deeply regret the inconvenience, but our delivery policy strictly requires unboxing verification in front of the courier agent. Since the package was marked accepted, system will not permit refund.'
+
+4. PREPARED LEGAL NOTICE:
+================================================================================
+FORMAL LEGAL DEMAND NOTICE (WITHOUT PREJUDICE)
+Date: 21-November-2026
+Sent via: Registered Post A.D. & Electronic Mail
+
+TO:
+FitZone Fitness Centre LLP
+
+FROM:
+Sameer Khan
+
+SUBJECT: DEMAND FOR REFUND OF ₹13,333 (Pro-rata remaining) PURSUANT TO CONSUMER PROTECTION ACT, 2019 (SECTIONS 2(7), 2(47), 35, 84-86) & E-COMMERCE RULES 2020
+
+Sir/Madam,
+
+Under instructions and in terms of statutory provisions of Consumer Protection Act, 2019 (Sections 2(7), 2(47), 35, 84-86) & E-Commerce Rules 2020, you are hereby formally put on notice as follows:
+
+1. STATEMENT OF FACTS:
+That the undersigned entered into a legitimate transaction with you regarding:
+"Maine 12 months ka gym membership liya tha ₹16,000 pay karke FitZone Gym me. 2 months baad unhone achanak branch band kar di aur bola dusre branch 12 km door jao. Maine refund manga WhatsApp pe toh branch manager ne block kar diya aur bolte hain 'No ..."
+
+2. UNLAWFUL WITHHOLDING & DEFICIENCY:
+That despite repeated formal requests, you have unlawfully failed, refused, and neglected to release the legitimate sum of ₹13,333 (Pro-rata remaining) legitimately due and payable to the undersigned. Such arbitrary retention constitutes breach of contractual obligations and unfair practice.
+
+3. SUPPORTING EVIDENCE IN POSSESSION:
+The undersigned possesses irrefutable documentary proof including:
+ - WhatsApp chat logs / agreement confirmations
+ - Proof of payment (Bank/UPI/Receipt)
+
+4. FINAL DEMAND FOR COMPLIANCE:
+You are hereby called upon to refund the full sum of ₹13,333 (Pro-rata remaining) to the undersigned's designated account within 15 (FIFTEEN) DAYS from the receipt of this notice, failing which the undersigned shall be constrained to initiate appropriate legal proceedings before the competent statutory forum, including the Consumer Disputes Redressal Commission / Rent Authority / Labour Commissioner, holding you liable for all legal costs, interest at 18% p.a., and damages for mental harassment.
+
+Yours faithfully,
+
+Sameer Khan
+(Aggrieved Complainant)
+================================================================================

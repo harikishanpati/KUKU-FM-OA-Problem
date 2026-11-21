@@ -1,0 +1,16 @@
+# Kuku AI Generalist Assignment — Complete Dependencies
+# Core Web UI & Dashboard
+streamlit>=1.30.0
+
+# PDF Generation (2-Page Solution Doc)
+reportlab>=4.0.0
+pypdf2>=3.0.0
+
+# Swappable Model Layer (Optional / API Support)
+google-generativeai>=0.8.0
+openai>=1.10.0
+
+# Data & Utilities
+requests>=2.31.0
+pandas>=2.0.0
+numpy>=1.24.0

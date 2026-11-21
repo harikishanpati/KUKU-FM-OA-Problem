@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kuku AI Microdrama Promo Studio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #0f172a; color: #f8fafc; padding: 24px; }
+    .container { max-width: 1200px; margin: 0 auto; }
+    header { border-bottom: 1px solid #334155; padding-bottom: 16px; margin-bottom: 24px; display: flex; justify-content: space-between; align-items: center; }
+    h1 { font-size: 26px; color: #ef4444; font-weight: 800; }
+    .sub { color: #94a3b8; font-size: 14px; margin-top: 4px; }
+    .kpi-row { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-bottom: 24px; }
+    .kpi-card { background: #1e293b; padding: 18px; border-radius: 8px; border: 1px solid #334155; }
+    .kpi-title { font-size: 12px; color: #94a3b8; text-transform: uppercase; font-weight: 600; }
+    .kpi-val { font-size: 24px; font-weight: 700; color: #f8fafc; margin-top: 6px; }
+    .promo-card { background: #1e293b; border: 1px solid #334155; border-radius: 8px; margin-bottom: 20px; padding: 20px; transition: border-color 0.2s; }
+    .promo-card:hover { border-color: #ef4444; }
+    .promo-header { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: 12px; }
+    .rank-badge { background: #ef4444; color: white; padding: 4px 10px; border-radius: 4px; font-weight: 700; font-size: 13px; margin-right: 8px; }
+    .ep-title { font-size: 18px; font-weight: 600; color: #f8fafc; }
+    .time-badge { background: #334155; color: #cbd5e1; padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+    .promo-grid { display: grid; grid-template-columns: 3fr 2fr; gap: 20px; }
+    .hook-box { background: #0f172a; border-left: 4px solid #f59e0b; padding: 12px; border-radius: 4px; margin-bottom: 10px; font-size: 14px; }
+    .cliff-box { background: #0f172a; border-left: 4px solid #ef4444; padding: 12px; border-radius: 4px; margin-bottom: 10px; font-size: 14px; }
+    .why-box { background: #0f172a; border-left: 4px solid #10b981; padding: 12px; border-radius: 4px; font-size: 14px; }
+    .metric-row { display: flex; justify-content: space-between; font-size: 12px; color: #94a3b8; margin-bottom: 4px; }
+    .progress-bar { background: #334155; height: 8px; border-radius: 4px; overflow: hidden; margin-bottom: 10px; }
+    .fill { height: 100%; border-radius: 4px; }
+    .fill-hook { background: #f59e0b; }
+    .fill-emo { background: #ef4444; }
+    .fill-conf { background: #8b5cf6; }
+    .fill-cliff { background: #ec4899; }
+    .fill-stand { background: #10b981; }
+    .script-snippet { margin-top: 14px; background: #0f172a; padding: 12px; border-radius: 6px; font-family: monospace; font-size: 12px; line-height: 1.5; max-height: 180px; overflow-y: auto; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>🎬 Kuku AI Microdrama Promo Studio</h1>
+        <div class="sub">Production Prototype: Automated Hook & Cliffhanger Extraction across 50 Episodes</div>
+      </div>
+      <div>
+        <span style="background: #10b981; color: #042f2e; padding: 6px 12px; border-radius: 20px; font-size: 12px; font-weight: 700;">● ZERO-DEPENDENCY LIVE DASHBOARD</span>
+      </div>
+    </header>
+
+    <div class="kpi-row">
+      <div class="kpi-card">
+        <div class="kpi-title">Catalog Episodes</div>
+        <div class="kpi-val">50</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-title">Candidate Windows Scored</div>
+        <div class="kpi-val">176</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-title">Average Promo Duration</div>
+        <div class="kpi-val">47.5s</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-title">Top Hook Score</div>
+        <div class="kpi-val">14 / 15</div>
+      </div>
+    </div>
+
+    <h2 style="font-size: 18px; margin-bottom: 16px; color: #cbd5e1;">🔥 Top Diversified Social Promos (TikTok / Reels / Shorts)</h2>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #1</span>
+          <span class="ep-title">Episode 28</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 01:00.00 ➔ 01:40.00 (40s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 14.30</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Rupert and Catherine frame Juliana for poisoning the Duchess despite the bedridden matriarch's protests, uncovering Juliana's true noble identity and her mother's herbarium before ordering her to the castle dungeons.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Over-the-shoulder shot of Rupert leaning menacingly over the gasping Duchess in bed. | BLOND NOBLEMAN: "You are merely confused."</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Medium shot of Juliana freezing in the doorway as she sees Catherine opening her mother's book. | Juliana gasps in horror, realizing her secret identity has been laid bare. | CATHERINE: "Lady Juliana Ashcroft."</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Clear dramatic tension; Powerful cliffhanger ending; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>14 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 93.33333333333333%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>7.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 50.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>6 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 60.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>7.8 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 78.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>BLOND NOBLEMAN:</b></span> "You are merely confused."<br><span style='color: #38bdf8;'><b>CATHERINE:</b></span> "How convenient that the only person who can prove the poison exists..."<br><span style='color: #38bdf8;'><b>CATHERINE:</b></span> "...is the maid who claims to have discovered it."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #2</span>
+          <span class="ep-title">Episode 16</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:05.00 ➔ 00:45.00 (40s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 14.26</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> When hired thugs attack Juliana's medicinal garden, Alexander unleashes his combat training to effortlessly overpower them, extracting a shocking confession that unmasks Gerald Harrington as the mastermind.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Extreme close-up of Alexander's scarred, weathered face, his cold blue-grey eyes fixed intently on h | Low-angle medium shot of the Thug with Cap gripping his weapon with both hands and roaring into the </div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Alexander lifts the thug onto his tiptoes against the cottage wall, glaring with lethal intensity. | ALEXANDER: "Who sent you?" | THUG WITH CAP: "No one!"</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Powerful cliffhanger ending; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>13 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 86.66666666666667%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>16.5 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 82.5%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>13.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 90.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>6 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 60.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>7.2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 72.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>THUG WITH CAP:</b></span> "I said, move!"<br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "Alexander..."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #3</span>
+          <span class="ep-title">Episode 10</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:00.00 ➔ 00:40.00 (40s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 14.08</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> When Alexander returns to the cottage gravely wounded and soaked in blood, Juliana tends to his injuries, leading to an intimate confrontation where their unspoken feelings and scarred pasts finally collide.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Medium profile shot of Juliana sitting at a wooden table beside the glowing fireplace, reading an ol | Juliana quietly studies the botanical illustrations by firelight, a bundle of fresh dried herbs rest</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Tight pan over the scarred, wounded flesh along his chest and ribs. | Close-up of Juliana's eyes widening in horror and deep pity. | JULIANA: "Dear God."</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Leaves viewer wanting more</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>13 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 86.66666666666667%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>16.0 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 80.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>15 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>4 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 40.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>6.9 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 69.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #94a3b8;'><i>[ACTION] Juliana quietly studies the botanical illustrations by firelight, a bundle of fr...</i></span><br><span style='color: #94a3b8;'><i>[ACTION] Juliana jerks her head up from the book, startled by the sudden intrusion....</i></span>
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #4</span>
+          <span class="ep-title">Episode 29</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:05.00 ➔ 00:45.00 (40s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 13.99</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Thrown into the castle's subterranean wet cells as Catherine threatens to burn her mother's herbarium and frame her for witchcraft, Juliana breaks down in isolation before swearing that they will never take Alexander from her.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Tracking shot facing two stern uniform guards hauling a struggling Juliana down the dark corridor by | Juliana resists furiously, her feet stumbling on the wet flagstones as the guards forcibly propel he</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>JULIANA: "You know that is a lie!" | Medium shot of Catherine lifting her chin arrogantly against the stone backdrop. | CATHERINE: "I know exactly what I need him to believe."</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Clear dramatic tension; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>15 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>7.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 50.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 20.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.1 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 81.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #94a3b8;'><i>[ACTION] Juliana resists furiously, her feet stumbling on the wet flagstones as the guard...</i></span><br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "Catherine! Please! That book is my mother's only legacy!"
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #5</span>
+          <span class="ep-title">Episode 16</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:25.00 ➔ 01:15.00 (50s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 13.94</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> When hired thugs attack Juliana's medicinal garden, Alexander unleashes his combat training to effortlessly overpower them, extracting a shocking confession that unmasks Gerald Harrington as the mastermind.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Medium tracking shot as the Bald Thug charges in with a shout, only for Alexander to pivot and seize | Medium shot of the Third Thug backing away nervously, raising a blunt rod with trembling arms before</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Medium close-up of Alexander turning his profile away, shadowed by haunted memories of his past. | ALEXANDER: "A soldier learns things he wishes he could forget." | JULIANA: "Are you hurt?"</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>15 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>13.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 90.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 20.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>7.8 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 78.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>THIRD THUG:</b></span> "Stay back!"<br><span style='color: #94a3b8;'><i>[ACTION] Alexander deflects the strike with his forearm, drives a swift counter-blow into...</i></span>
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #6</span>
+          <span class="ep-title">Episode 11</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 01:05.00 ➔ 01:45.00 (40s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 13.48</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Gerald and Clarissa arrive at the cottage with an armed constable accusing Alexander of grand theft, culminating in a devastating planted discovery that threatens to tear the newlyweds apart.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Close-up of the Constable's hands flipping open a small wooden keepsake box on a work table. | CONSTABLE: "Then you have nothing to fear."</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Visual cliffhanger</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>15 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>18.5 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 92.5%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>9.0 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 60.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>0 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 0.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>7.5 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 75.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>CONSTABLE:</b></span> "Then you have nothing to fear."<br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "Those are all I have left!"<br><span style='color: #38bdf8;'><b>GERALD:</b></span> "Stand aside. Look at this place. A perfect hiding hole for a thief."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #7</span>
+          <span class="ep-title">Episode 44</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:15.00 ➔ 01:05.00 (50s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 13.06</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> As Lord Sterling and Rupert are apprehended by the Crown, Catherine pleads with Alexander for their past love, only to be coldly rejected as he walks toward his chained bride, Juliana.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Wide shot of the ruined nave littered with rubble as royal redcoat guards surround the aisle, forcin | A royal redcoat guard firmly forces Rupert down into the stone dust.</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Close-up on Alexander tilting his head slightly, his gaze piercing through her. | ALEXANDER: "Did you?" | Close-up on Catherine, rendered speechless by his doubt.</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>15 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>9.0 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 60.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 20.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.4 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 84.00000000000001%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #94a3b8;'><i>[ACTION] A royal redcoat guard firmly forces Rupert down into the stone dust....</i></span><br><span style='color: #38bdf8;'><b>BLOND NOBLEMAN:</b></span> "Get your hands off me! Catherine!"<br><span style='color: #38bdf8;'><b>BLOND NOBLEMAN:</b></span> "Do something!"
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #8</span>
+          <span class="ep-title">Episode 11</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:35.00 ➔ 01:25.00 (50s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 13.03</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Gerald and Clarissa arrive at the cottage with an armed constable accusing Alexander of grand theft, culminating in a devastating planted discovery that threatens to tear the newlyweds apart.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Medium shot of Gerald pointing back toward the approaching Constable, feigning alarm. | GERALD: "You hear that? He threatens me again!"</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Low-angle close-up of Gerald tilting his chin up, daringly baiting Alexander. | GERALD: "What is it, soldier? Going to strike a gentleman in front of his wife?" | JULIANA: "Don't!"</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Leaves viewer wanting more; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>13 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 86.66666666666667%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>10.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 70.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>4 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 40.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.1 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 81.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>GERALD:</b></span> "You hear that? He threatens me again!"<br><span style='color: #38bdf8;'><b>CONSTABLE:</b></span> "I have received a complaint of theft."<br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "A complaint is not proof."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #9</span>
+          <span class="ep-title">Episode 36</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 02:40.00 ➔ 03:20.00 (40s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 12.84</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Learning from his mother that Rupert and Catherine framed Juliana for witchcraft and sentenced her to death right after their upcoming wedding, Alexander vows to return from the dead and reclaim everything stolen from him.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Tight, terrifying close-up on Alexander's eyes flashing with murderous wrath. | ALEXANDER: "...and killing my wife afterward."</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Alexander stares resolutely ahead into the dark, snowy woods as the camera holds on his grim, determ | A heavy, ominous orchestral swell builds to a thunderous cliffhanger sting and reverberates into sil</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Clear dramatic tension; Powerful cliffhanger ending; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>9 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 60.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20.0 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>6.0 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 40.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>10 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>7.2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 72.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>ALEXANDER:</b></span> "...and killing my wife afterward."<br><span style='color: #38bdf8;'><b>ALEXANDER'S MOTHER:</b></span> "Alexander, you cannot go back there alone!"<br><span style='color: #38bdf8;'><b>ALEXANDER:</b></span> "They already took my name."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #10</span>
+          <span class="ep-title">Episode 3</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:45.00 ➔ 01:35.00 (50s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 12.75</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Banished from her mother's chapel and seized by guards at her family's command, Juliana is rescued by an imposing, scarred stranger who intervenes with lethal grace—and drops to one knee with a proposal that shocks high society.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Medium shot of the Noble Matriarch looking down her nose in disdain. | NOBLE MATRIARCH: "Wherever a discarded daughter belongs."</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>THE BEARDED STRANGER: "Are you hurt?" | Close-up on Juliana's tear-streaked face as she shakes her head gently, overwhelmed with wonder. | Juliana softly shakes her head 'no', her wide blue eyes locked onto him.</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Clear dramatic tension; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>15 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>7.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 50.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 20.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.4 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 84.00000000000001%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>NOBLE MATRIARCH:</b></span> "Wherever a discarded daughter belongs."<br><span style='color: #38bdf8;'><b>LADY JULIANA:</b></span> "This is my mother's church."<br><span style='color: #38bdf8;'><b>LADY JULIANA:</b></span> "I have every right to stand here."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #11</span>
+          <span class="ep-title">Episode 24</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:20.00 ➔ 01:10.00 (50s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 12.68</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> When an arrogant noblewoman catches Juliana in the poisoned Dowager Duchess's chambers, she strikes Juliana with a riding crop and sentences her to scrub the hearth, unaware that Juliana has secretly hidden the antidote and remedy journal to finish the Duchess's cure.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Behind her grey skirt, Juliana quickly slips the small glass remedy vial into her apron pocket with  | Close-up on Juliana's hand swiftly concealing the medicine bottle.</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>The noblewoman whips around sharply, thrusting the tip of her riding crop directly into Prudence's f | Medium close-up of the noblewoman baring her teeth in rage, aiming the crop threateningly. | NOBLEWOMAN: "Do you want the same punishment?"</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Powerful cliffhanger ending; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>12 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 80.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>9.0 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 60.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>6 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 60.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>7.8 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 78.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #94a3b8;'><i>[ACTION] Behind her grey skirt, Juliana quickly slips the small glass remedy vial into he...</i></span><br><span style='color: #38bdf8;'><b>LADY JULIANA:</b></span> "I heard her. I thought Her Grace needed help."<br><span style='color: #38bdf8;'><b>NOBLEWOMAN:</b></span> "You thought? A new maid thinks she knows better than the physicians?"
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #12</span>
+          <span class="ep-title">Episode 23</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 01:00.00 ➔ 01:40.00 (40s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 12.46</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> After examining the dying Dowager Duchess's blackened fingernails and consulting her late mother's remedy journal, Lady Juliana discovers the Duchess is being poisoned with arsenic—only for someone to arrive at the bedroom door just as she begins concocting the antidote.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Close-up of Juliana looking up from the page, stunned by her mother's written words. | Medium shot of Prudence leaning in, candle trembling.</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Medium shot of Juliana uncorking a glass apothecary bottle as the Duchess rests behind her. | LADY JULIANA: "I can try."</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Clear dramatic tension</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>13 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 86.66666666666667%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20.0 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>6.0 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 40.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>0 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 0.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>6.9 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 69.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>PRUDENCE:</b></span> "What is it?"<br><span style='color: #38bdf8;'><b>LADY JULIANA:</b></span> "Weakness. Dry mouth. The discoloration beneath the nails. The slow wasting."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #13</span>
+          <span class="ep-title">Episode 15</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:25.00 ➔ 01:25.00 (60s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 12.44</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> When ruthless thugs desecrate Juliana's medicinal garden and trample her late mother's herbs, a protective Alexander charges into the night to defend her.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>High-angle two-shot as Juliana rushes forward and drops directly onto her knees in the cold mud befo | Juliana frantically tries to scoop the crushed soil and torn stems back into the bed with her bandag</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Close-up of Juliana looking up with wide, anxious eyes, breath hitching in suspense as violence hang | Tense, low dramatic cello swell holding into an abrupt cliffhanger cut.</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Leaves viewer wanting more; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>13 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 86.66666666666667%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>13.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 90.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>5 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 50.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.1 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 81.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #94a3b8;'><i>[ACTION] Juliana frantically tries to scoop the crushed soil and torn stems back into the...</i></span><br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "Please! Those plants took months to grow!"<br><span style='color: #38bdf8;'><b>TALL THUG:</b></span> "Months? You actually spend your days growing this filth?"
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #14</span>
+          <span class="ep-title">Episode 32</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 01:45.00 ➔ 02:35.00 (50s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 12.12</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Cornered and chained in the damp dungeon, Juliana shatters Catherine's cruelty with unshakeable dignity and the truth about love and worth, driving Catherine into a murderous fury.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Low-angle shot of Catherine standing rigid in her gold and purple gown, the guard standing sentinel  | JULIANA: "And a woman who never embarrasses the people standing behind her."</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Medium shot of Catherine plunging the glowing orange poker straight toward Juliana's face. | Juliana gasps, freezing as the glowing tip of the iron thrusts forward, stopping mere millimeters fr | Extreme close-up of Juliana's wide, unblinking blue eye. The intense, fiery orange glow of the iron </div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Leaves viewer wanting more; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>8 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 53.333333333333336%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>13.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 90.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>4 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 40.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.4 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 84.00000000000001%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>JULIANA:</b></span> "And a woman who never embarrasses the people standing behind her."<br><span style='color: #38bdf8;'><b>CATHERINE:</b></span> "And what is wrong with that?!"
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #15</span>
+          <span class="ep-title">Episode 42</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:10.00 ➔ 01:00.00 (50s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 12.12</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Emerging from the smoke of the shattered cathedral gates in full ducal regalia, Alexander confronts Rupert, wins the loyalty of the royal guards, and is proclaimed the rightful Duke of Ashburn by his weeping mother.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Low-angle shot through drifting smoke and rubble across the stone floor, tilting up as polished boot | Alexander strides deliberately through the pulverized cathedral doorway. Dressed in the regal ducal </div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Visual cliffhanger</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>12 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 80.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>10.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 70.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>0 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 0.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.4 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 84.00000000000001%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #94a3b8;'><i>[ACTION] Alexander strides deliberately through the pulverized cathedral doorway. Dressed...</i></span><br><span style='color: #38bdf8;'><b>BLOND NOBLEMAN:</b></span> "Who are you?"<br><span style='color: #38bdf8;'><b>ALEXANDER:</b></span> "You already know."<br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "Alexander..."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #16</span>
+          <span class="ep-title">Episode 29</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:35.00 ➔ 01:35.00 (60s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 12.07</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Thrown into the castle's subterranean wet cells as Catherine threatens to burn her mother's herbarium and frame her for witchcraft, Juliana breaks down in isolation before swearing that they will never take Alexander from her.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Overhead close-up of Catherine's gloved fingers flipping through the herbarium's delicate, hand-draw | CATHERINE: "Roots. Leaves. Powders. Strange mixtures written in a dead woman's hand."</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>JULIANA: "Mother..."</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>14 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 93.33333333333333%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>12.0 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 80.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 20.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.7 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 86.99999999999999%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>CATHERINE:</b></span> "Roots. Leaves. Powders. Strange mixtures written in a dead woman's hand."<br><span style='color: #38bdf8;'><b>CATHERINE:</b></span> "The magistrate will call it witchcraft."<br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "You know that is a lie!"
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #17</span>
+          <span class="ep-title">Episode 35</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 01:45.00 ➔ 02:35.00 (50s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 11.95</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Fleeing her captivity through a secret passage, Alexander's elderly mother treks through a bitter blizzard to a secluded cabin, where she tearfully reunites with her presumed-dead son and learns the horrifying conspiracy behind his supposed demise.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Close-up of his mother clutching at her throat, tears glistening in her eyes. | ALEXANDER'S MOTHER: "And you?"</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Visual cliffhanger</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>9 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 60.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>19.5 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 97.5%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>15.0 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>0 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 0.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.1 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 81.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>ALEXANDER'S MOTHER:</b></span> "And you?"<br><span style='color: #38bdf8;'><b>ALEXANDER:</b></span> "I was shot. Left for dead."<br><span style='color: #38bdf8;'><b>ALEXANDER'S MOTHER:</b></span> "How did you escape?"
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #18</span>
+          <span class="ep-title">Episode 13</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:55.00 ➔ 01:55.00 (60s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 11.93</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Defying Alexander's desperate pleas, Juliana crawls barehanded into the razor-sharp blackthorn garden, enduring brutal lacerations under Clarissa and Gerald's cruel taunts until she unearths the lost emerald signet ring.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Ground-level shot of Juliana's bare hands reaching out onto the cracked, frozen ground. | Sharp blackthorn spines rake across Juliana's fingers and knuckles, carving bloody gashes across her</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Close-up of Juliana grimacing in fierce triumph and intense pain as thorns catch her knuckles. | Brief cut to Alexander staring into the briar patch in suspended terror.</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Intense conflict/confrontation; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>13 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 86.66666666666667%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>15 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>0 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 0.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>7.2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 72.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #94a3b8;'><i>[ACTION] Sharp blackthorn spines rake across Juliana's fingers and knuckles, carving bloo...</i></span><br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "No..."<br><span style='color: #38bdf8;'><b>CLARISSA:</b></span> "Look at her hands."
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #19</span>
+          <span class="ep-title">Episode 29</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 01:25.00 ➔ 01:55.00 (30s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 11.91</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Thrown into the castle's subterranean wet cells as Catherine threatens to burn her mother's herbarium and frame her for witchcraft, Juliana breaks down in isolation before swearing that they will never take Alexander from her.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>Wide shot inside the pitch-dark cell as the heavy iron door swings open. | The guards shove Juliana violently into the cell; she falls hard onto all fours across the cold, wet</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Close-up of the dungeon's massive iron portcullis bars dropping down with finality. | A heavy iron portcullis crashes down with a massive echoing bang.</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>15 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>17.5 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 87.5%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>3.0 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 20.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>1 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 10.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>6.9 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 69.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #94a3b8;'><i>[ACTION] The guards shove Juliana violently into the cell; she falls hard onto all fours ...</i></span><br><span style='color: #38bdf8;'><b>JULIANA:</b></span> "Please!"
+      </div>
+    </div>
+
+    <div class="promo-card">
+      <div class="promo-header">
+        <div>
+          <span class="rank-badge">RANK #20</span>
+          <span class="ep-title">Episode 32</span>
+        </div>
+        <div>
+          <span class="time-badge">⏱️ 00:15.00 ➔ 00:55.00 (40s)</span>
+          <span class="time-badge" style="background: #10b981; color: black; font-weight: bold; margin-left: 6px;">Score: 11.91</span>
+        </div>
+      </div>
+
+      <p style="color: #94a3b8; font-size: 13px; margin-bottom: 14px;"><b>Logline:</b> Cornered and chained in the damp dungeon, Juliana shatters Catherine's cruelty with unshakeable dignity and the truth about love and worth, driving Catherine into a murderous fury.</p>
+
+      <div class="promo-grid">
+        <div>
+          <div class="hook-box"><b>🪝 The 3-Second Hook:</b><br>CATHERINE: "...but now you are afraid." | Medium shot of Catherine straightening up haughtily.</div>
+          <div class="cliff-box"><b>⏸️ The Cliffhanger Cut:</b><br>Close-up of Catherine brandishing the glowing tong in Juliana's face, spittle flying from her lips. | CATHERINE: "You are lying!"</div>
+          <div class="why-box"><b>💡 Why This Converts:</b><br>Strong opening hook that stops scrollers; Extremely high emotional intensity; Self-explanatory to new viewers</div>
+        </div>
+        <div>
+          <div class="metric-row"><span>Hook Strength</span><span>13 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-hook" style="width: 86.66666666666667%;"></div></div>
+
+          <div class="metric-row"><span>Emotional Charge</span><span>20 / 20</span></div>
+          <div class="progress-bar"><div class="fill fill-emo" style="width: 100.0%;"></div></div>
+
+          <div class="metric-row"><span>Conflict & Stakes</span><span>1.5 / 15</span></div>
+          <div class="progress-bar"><div class="fill fill-conf" style="width: 10.0%;"></div></div>
+
+          <div class="metric-row"><span>Cliffhanger Tension</span><span>2 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-cliff" style="width: 20.0%;"></div></div>
+
+          <div class="metric-row"><span>Standalone Clarity</span><span>8.1 / 10</span></div>
+          <div class="progress-bar"><div class="fill fill-stand" style="width: 81.0%;"></div></div>
+        </div>
+      </div>
+
+      <div class="script-snippet">
+        <div style="color: #64748b; margin-bottom: 4px; font-weight: bold;">SCENE EXCERPT:</div>
+        <span style='color: #38bdf8;'><b>CATHERINE:</b></span> "...but now you are afraid."<br><span style='color: #38bdf8;'><b>CATHERINE:</b></span> "Say goodbye to your mother."<br><span style='color: #94a3b8;'><i>[ACTION] Juliana's despair suddenly solidifies. Her jaw tightens, tears stopping as resol...</i></span>
+      </div>
+    </div>
+
+  </div>
+</body>
+</html>

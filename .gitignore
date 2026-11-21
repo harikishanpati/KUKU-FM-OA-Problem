@@ -1,0 +1,17 @@
+# Windows system cache & temp
+AppData/
+**/AppData/
+*.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Streamlit local state
+.streamlit/
+**/.streamlit/
+
+# Confidential Input Pack (Kuku proprietary assignment content - do not publish to public GitHub)
+I Married a Broken Soldier. He was a Duke/
